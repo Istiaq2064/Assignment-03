@@ -23,8 +23,8 @@
         extend: {
           colors: {
             clifford: '#da373d',
-          }
-              fontfamily{
+      }
+              fontfamily:{
       manrope: ['Manrope', 'sans-serif']
     }
           }
@@ -33,7 +33,7 @@
 </head>
 
 <body class="font-manrope">
-  <header class="container bg-gradient-to-r from-white-0 to-white-100">
+  <header class="container bg-gradient-to-r-from-white-0 to-white-100 w-[1440px] m-auto">
     <nav class="justify-between">
       <div class="navbar">
         <div class="navbar-start">
@@ -76,19 +76,18 @@
         </div>
       </div>
     </nav>
-    <section>
+    <section class="w-[1170px] m-auto">
       <div class="flex justify-center items-center mb-4">
         <img src="./assets/banner.png" alt="">
       </div>
       <div>
-        <h1 class=" font-extrabold text-[28px] text-center mb-6 lg:font-extrabold text-7xl text-center mb-6">A barn
-          house of this design has a <br> striking appearance</h1>
+        <h1 class=" font-extrabold text-[28px] text-center mb-6 lg:font-extrabold text-7xl">A barn house of this design has a <br> striking appearance</h1>
         <p
-          class="text-slate-500 text-[14px] font-medium mb-5 text-center lg:text-slate-500 text-base font-medium mb-8 text-center">
+          class="text-slate-500 text-[14px] font-medium mb-5 text-center lg:text-slate-500 text-base lg:font-medium lg:mb-8 ">
           The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood,
           sleek metal accents, <br> and large windows that flood the space with natural light.</p>
         <div class="flex justify-center items-center">
-          <button class="text-xl border rounder-4xl bg-[#ABEF5F] lg:text-xl border rounded-3xl  bg-[#ABEF5F] p-3">Book
+          <button class="text-xl border rounder-4xl bg-[#ABEF5F] lg:text-xl p-3">Book
             Consult<i
               class="fa-solid fa-arrow-right -rotate-45 border rounded-full bg-black text-white ml-2 p-1"></i></button>
         </div>
@@ -96,11 +95,11 @@
   </header>
 
 
-  <section class="mt-[100px]">
+  <section class="mt-[100px] w-[1440px] m-auto">
     <div class="hidden lg:flex ">
       <img src="./assets/Vector.png" alt="">
     </div>
-    <div class="lg:ml-[135px] mr-[128px] flex">
+    <div class="lg:ml-[135px] mr-[128px] flex w-[1170px]  m-auto">
       <div class="w-[559px] mr-[37px]">
         <button class="border rounded-3xl p-1 font-bold "><i class="fa-solid fa-arrow-right"></i>About Us</button>
         <h1 class=" font-bold text-[40px]">We design thoughtful, <br> liveable spaces</h1>
@@ -108,7 +107,7 @@
           sophistication, featuring weathered wood, sleek metal accents.</p>
         <div class="hero">
           <div class="hero-content flex-col lg:flex-row border border-gray-500 rounded-lg bg-white my-6">
-            <img src="./assets/commercial.png" class="max-w-sm rounded-lg shadow-2xl" />
+            <img src="./assets/commercial.png" class="max-w-sm rounded-2xl shadow-2xl" />
             <div>
               <h1 class="text-2xl font-bold">Commercial</h1>
               <p class="py-3">
@@ -119,7 +118,7 @@
         </div>
         <div class="hero">
           <div class="hero-content flex-col lg:flex-row border border-gray-500 rounded-lg bg-white my-6">
-            <img src="./assets/commercial.png" class="max-w-sm rounded-lg shadow-2xl" />
+            <img src="./assets/commercial.png" class="max-w-sm rounded-2xl shadow-2xl" />
             <div>
               <h1 class="text-2xl font-bold">Commercial</h1>
               <p class="py-3">
@@ -137,13 +136,15 @@
 
   </section>
 
-  <section class="text-center mt-[100px]">
-    <button class="border rounded-3xl p-3 mb-[16px] font-bold text-4"><i class="fa-solid fa-arrow-right mr-3"></i>How we Works </button>
+  <section class=" lg:w-[1170px] text-center mt-[100px] m-auto">
+    <button class="border rounded-3xl p-3 mb-[16px] font-bold text-4"><i class="fa-solid fa-arrow-right mr-3"></i>How we
+      Works </button>
     <h1 class="text-[20px] mb-[14px] font-bold lg:font-bold lg:text-[40px] lg:mb-[24px]">Our Works Process</h1>
-    <p class=" font-mediam text-[14px] lg:mb-[16px] lg:font-mediam lg:text-[16px]">The barn house captivates with its blend of rustic charm and
+    <p class=" font-mediam text-[14px] lg:mb-[16px] lg:font-mediam lg:text-[16px]">The barn house captivates with its
+      blend of rustic charm and
       modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
   </section>
-  <div class="grid grid-cols-1 lg:grid-cols-4 gap-5 p-5">
+  <div class="grid grid-cols-1 lg:grid-cols-4 gap-5 p-5 w-[1170px] m-auto">
     <div class="border rounded-lg p-3 bg-[#E7C1D3]">
       <img src="./assets/concept.png" alt="">
       <h1 class="font-bold text-[20px] mb-[10px]">Concept</h1>
@@ -172,59 +173,106 @@
 
   <section class="w-[1190px] m-auto">
     <div class="text-center text-container mt-[32px] lg:mt-[100px]">
-      <button class="border rounded-3xl p-3 mb-[16px] font-bold text-4 bg-amber-50 "><i class="fa-solid fa-arrow-right mr-3"></i>Explore our Latest works</button>
-    <h1 class="font-bold text-[20px] lg:font-bold lg:text-5xl lg:mb-6">Our Latest Portfolio</h1>
-    <p class="text-[10px] font-mediam lg:font-mediam lg:text-[14px] lg:text-[#494949] lg:mb-8">Our latest portfolio showcases diverse, innovative projects, highlighting creativity, quality, and successful client collaborations.</p>  
+      <button class="border rounded-3xl p-3 mb-[16px] font-bold text-4 bg-amber-50 "><i
+          class="fa-solid fa-arrow-right mr-3"></i>Explore our Latest works</button>
+      <h1 class="font-bold text-[20px] lg:font-bold lg:text-5xl lg:mb-6">Our Latest Portfolio</h1>
+      <p class="text-[10px] font-mediam lg:font-mediam lg:text-[14px] lg:text-[#494949] lg:mb-8">Our latest portfolio showcases diverse, innovative projects, highlighting creativity, quality, and successful client collaborations.
+      </p>
     </div>
 
-    <div class="lg:flex lg:gap-6 block">
-      <div class="border rounded-2xl w-[772px]">
-      <div class="hero">
-  <div class="hero-content">
-    <img
-      src="./assets/img1.png"
-      class="rounded-lg shadow-2xl" />
-    <div>
-      <h1 class="text-6 font-bold mb-4">Commercial</h1>
-      <p class="font-mediam text-4 text-[#494949] mb-5">
-        Commercial" refers to activities or products intended for profit, involving business, trade, or services, often targeting consumer markets.
-      </p>
-      <h3 class="font-bold text-[20px]">View Details<i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] border rounded-full ml-2 p-2"></i></h3>
-    </div>
-  </div>
-</div>
-    </div>  
-    <div class="border rounded-2xl w-[374px] p-6">
-  <img src="./assets/img2.png" alt="">
-  </div>
+    <div class="lg:flex lg:gap-6 block flex-grow">
+      <div class="border rounded-2xl">
+        <div class="hero">
+          <div class="hero-content">
+            <img src="./assets/img1.png" class="rounded-lg shadow-2xl" />
+            <div>
+              <h1 class="text-6 font-bold mb-4">Commercial</h1>
+              <p class="font-mediam text-4 text-[#494949] mb-5">
+                Commercial" refers to activities or products intended for profit, involving business, trade, or services, often targeting consumer markets.</p>
+              <h3 class="font-bold text-[20px]">View Details<i
+                  class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] border rounded-full ml-2 p-2"></i></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border rounded-2xl  p-6">
+        <img src="./assets/img2.png" alt="">
+      </div>
     </div>
 
     <div class="flex gap-6 mt-6">
-      <div class="border rounded-2xl w-[287px] p-6">
-  <img src="./assets/img3.png" alt="">
-  </div>
-  <div class="lg:flex lg:gap-6 block">
-      <div class="border rounded-2xl w-[573px]">
-      <div class="hero">
-  <div class="hero-content">
-    <img
-      src="./assets/img4.png"
-      class="rounded-lg shadow-2xl" />
-    <div>
-      <h1 class="text-6 font-bold mb-4">Commercial</h1>
-      <p class="font-mediam text-4 text-[#494949] mb-5">
-        Commercial" refers to activities or products intended for profit, involving business, trade, or services, often targeting consumer markets.
-      </p>
-      <h3 class="font-bold text-[20px]">View Details<i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] border rounded-full ml-2 p-2"></i></h3>
-    </div>
-  </div>
-</div>
-    </div> 
-    <div class="border rounded-2xl w-[274px] p-6">
-  <img src="./assets/img5.png" alt="">
-  </div>
+      <div class="border rounded-2xl p-6">
+        <img src="./assets/img3.png" alt="">
+      </div>
+      <div class="lg:flex lg:gap-6 block flex-grow">
+        <div class="border rounded-2xl ">
+          <div class="hero">
+            <div class="hero-content">
+              <img src="./assets/img4.png" class="rounded-lg shadow-2xl" />
+              <div>
+                <h1 class="text-6 font-bold mb-4">Commercial</h1>
+                <p class="font-mediam text-4 text-[#494949] mb-5">
+                  Commercial" refers to activities or products intended for profit, involving business, trade, or
+                  services, often targeting consumer markets.
+                </p>
+                <h3 class="font-bold text-[20px]">View Details<i
+                    class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] border rounded-full ml-2 p-2"></i></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="border rounded-2xl w-[274px] p-6">
+          <img src="./assets/img5.png" alt="">
+        </div>
       </div>
   </section>
-</body>
 
+  <section class="w-[1440px] m-auto bg-[url(./assets/bg.jpg)]">
+    <div class="text-center mt-[100px]">
+      <button class="border rounded-3xl p-1 bg-amber-50 mt-6"><i class="fa-solid fa-arrow-right ml-2 "></i>Let’s Connect</button>
+      <h1 class="font-bold text-[40px]">Let’s Discuss Next Project</h1>
+      <p class="font-medium text-base text-[#494949] mt-6 mb-8">The barn house captivates with its blend of rustic charm and
+        modern sophistication, featuring weathered wood, sleek metal accents.</p>
+    </div>
+    <div class="text-center gap-1">
+      <div>
+      <input type="text" placeholder="First Name" class="input input-bordered input-secondary mr-6 mb-6 w-[473px]  rounded-3xl" />
+      <input type="text" placeholder="Last Name" class="input input-bordered input-secondary w-[473px]  rounded-3xl" />
+    </div>
+    <div>
+      <input type="number" placeholder="Mobile Number" class="input input-bordered input-secondary w-[473px]  rounded-3xl mr-6 mb-6" />
+      <input type="email" placeholder="Email Number" class="input input-bordered input-secondary w-[473px]  rounded-3xl" /> 
+        <input  type="text" placeholder="Write Your Massage Here" class="input input-bordered input-secondary w-[970px]  rounded-3xl h-[240px]" />   
+        
+      <div>
+        <button class="border rounded-3xl px-[417px] py-[12.14px] bg-[#ABEF5F] mt-7 mb-[100px] w-[970px] ">Send Email<i class="fa-solid fa-arrow-right ml-2 border p-1 text-white bg-black -rotate-45 rounded-full "></i></button>  
+      </div>
+    </div>  
+    </div>
+  </section>
+
+  <footer class="bg-black w-[1440px] m-auto">
+    
+  <div class="text-center m-auto">
+      <h3 class="lg:font-extrabold text-white text-[32px] mb-4"><i
+        class="fa-solid fa-arrow-right -rotate-45 border rounded-full bg-[#ABEF5F] mr-2 p-1"></i>Rinterio</h3>
+      <p class=" text-4 text-[#737373]">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p> 
+    </div> 
+    <div>
+
+      <div class="navbar-center lg:flex lg:justify-evenly ">
+          <ul class="menu menu-horizontal px-1 text-[#E9E9E9] m-auto  mt-16">
+            <li><a class="font-bold text-black">Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Services</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+      <div class="flex justify-center mt-16">
+        <button class=" text-[20px] mb-[72px] px-[69.5px] py-[14.5px] lg:text-xl rounded-3xl border bg-[#ABEF5F] p-3 lg:mb-[100px]">Book Consult <i
+          class="fa-solid fa-arrow-right -rotate-45 border rounded-full bg-black text-white ml-2 p-1"></i></button>
+        </div>
+  </footer>
+</body>
 </html>
